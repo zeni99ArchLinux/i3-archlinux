@@ -30,12 +30,14 @@ RedShift --> redshift <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
-pacman -S base-devel fakeroot jshon <br>
+sudo pacman -S base-devel fakeroot jshon expac git <br>
 <i>Get the PKGBUILD for Packer: </i> <br>
-wget https://aur.archlinux.org/packages/pa/packer/PKGBUILD <br>
+wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=packer <br>
+<i>Rename the downloaded file</i>
+mv PKGBUILD\?h\=packer PKGBUILD
 <i>Make the package: </i><br>
 makepkg <br>
 <i>Install it with pacman:</i> <br>
-pacman -U packer-*.pkg.tar.xz <br>
+sudo pacman -U packer-*.pkg.tar.xz <br>
 
  
