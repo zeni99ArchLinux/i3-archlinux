@@ -58,7 +58,6 @@ bindsym $mod+d exec dmenu_run
 
 #lock screen
 bindsym $mod+Delete exec xscreensaver-command --lock 
-#-i /home/william/Pictures/blackearth.jpeg
 
 #my app
 bindsym $mod+t exec thunar
@@ -78,13 +77,13 @@ bindsym Mod1+m exec amixer -q set Master mute
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
+
 #GRAPHICS
 
 #gaps
 gaps inner 10
 gaps outer 10
 smart_gaps on
-
 
 # change focus
 #bindsym $mod+j focus left
