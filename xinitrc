@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#save this file in /home/USER like .xinitrc --> /home/USER/.xinitrc
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
