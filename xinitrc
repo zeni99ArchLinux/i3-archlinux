@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#save this file in /home/USER like .xinitrc --> /home/USER/.xinitrc
+#save this file in /home/$USER like .xinitrc --> ~/.xinitrc
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
