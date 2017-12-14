@@ -1,6 +1,6 @@
 
 Where to save
-Save this folder in your user path like this: /home/$USER/.config
+Save this folder in your user path like this: ~/.config
 
 Then rename i3bloks.conf and i3status.conf: .i3blocks.conf 
                                             .i3status.conf
