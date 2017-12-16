@@ -14,8 +14,8 @@
 set $mod Mod4
 set $feh exec --no-startup-id feh --bg-fill
 set $fehr exec feh --randomize --bg-fill
-set $pic /home/william/Pictures
-set $config_path /home/william/.config/i3
+set $pic ~/Pictures
+set $config_path ~/.config/i3
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -50,7 +50,6 @@ bindsym $mod+d exec dmenu_run
 
 #lock screen
 bindsym $mod+Delete exec xscreensaver-command --lock 
-#-i /home/william/Pictures/blackearth.jpeg
 
 #my app
 bindsym $mod+t exec thunar
@@ -69,6 +68,7 @@ bindsym Mod1+m exec amixer -q set Master mute
 #Key Indicators
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
 
 #GRAPHICS
 
