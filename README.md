@@ -18,7 +18,7 @@ Opacity Background --> xcompmgr transset-df <br>
 Pluma Text Editor --> pluma <br>
 Feh Image Viewer --> feh <br>
 i3 GAPS --> i3-gaps(Aur) <br>
-Minimal Screensaver --> xscreensaver-arch-logo(Aur) <br>
+Minimal Screensaver --> xscreensaver-arch-logo(Aur) (optional, this configuration has is own lockscreen)<br>
 File-Roller GUI Extractor File --> unrar unzip tar file-roller rar(Aur) <br>
 Libre Office --> libreoffice-still <br>
 ACPI Modules --> acpi <br>
