@@ -1,6 +1,6 @@
 # i3-archlinux
 
-I'll try to put my all configuration here.
+I'll try to put my entire configuration here.
 
 # PACKETS
 [NAME--->PACKETS]
