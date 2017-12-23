@@ -31,6 +31,7 @@ Transmission(GUI) --> transmission-cli transmission-qt <br>
 Font --> ttf-google-fonts-git (AUR) <br>
 System status --> sysstat <br>
 Pony Mix --> ponymix <br>
+Atom --> atom <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
