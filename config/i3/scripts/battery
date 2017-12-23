@@ -9,7 +9,7 @@ if [[ -e "/sys/class/power_supply/BAT0/capacity" ]]; then
 fi
 
 if [[ $level != "" ]]; then
-  outstr=""
+  outstr=" "
 
   if [[ $ac == "1" ]]; then
     outstr="${outstr}Charging:"
