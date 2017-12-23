@@ -7,7 +7,7 @@ I'll try to put my entire configuration here.
 
 Xorg --> xorg-server (Remember your CPI drivers)<br>
 Xinit --> xorg-xinit <br> 
-i3 Desktop Enviroment --> i3 #all i3 packets <br>
+i3 Desktop Enviroment --> i3 (all i3 packets) <br>
 <br>
 Ranger --> ranger <br>
 Thunare File Manager --> thunar thunar-archive-plugin thunar-volman <br>
