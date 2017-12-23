@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#the script counts your last day gmail unread emails. If it doesn't work, you check your email account 
+
+USER=williamzeni56@gmail.com #Your_Gmail_Username
+PASS=g0ku@56_W #Your_Password
+ 
+COUNT=`curl -su $USER:$PASS https://mail.google.com/mail/feed/atom || echo "<fullcount>unknown number of</fullcount>"`
+COUNT=`echo "$COUNT" | grep -oPm1 "(?<=<fullcount>)[^<]+"`
+
+if [ "$COUNT" != "0" ]; then
+    echo "  $COUNT"
+fi
