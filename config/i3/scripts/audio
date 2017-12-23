@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+vol=`ponymix get-volume`
+#muted=`ponymix is-muted`
+
+# determine icon
+if [ $vol == "0" ]; then
+	echo "  $vol"
+else
+	if [ $vol -le 63 ]; then
+		echo "  $vol"
+	else
+		echo "  $vol"
+	fi
+fi
+
+# determine mute status
+#if $muted; then
+#    echo $vol
+#	#status=33
+#fi
+
