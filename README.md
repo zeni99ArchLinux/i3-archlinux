@@ -29,6 +29,7 @@ i3 BLOCKs-Gaps --> i3blocks-gaps-git(Aur) <br>
 RedShift --> redshift <br>
 Transmission(GUI) --> transmission-cli transmission-qt <br>
 Font --> ttf-google-fonts-git (AUR) <br>
+System status --> sysstat <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
