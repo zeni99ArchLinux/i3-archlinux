@@ -32,7 +32,7 @@ Font --> ttf-google-fonts-git (AUR) <br>
 System status --> sysstat <br>
 Pony Mix --> ponymix <br>
 Atom --> atom <br>
-Gnome Center --> gnome-control-center
+Gnome Character map --> gnome-characters <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
