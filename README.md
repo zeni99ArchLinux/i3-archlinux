@@ -34,6 +34,9 @@ Pony Mix --> ponymix <br>
 Atom --> atom <br>
 Gnome Character map --> gnome-characters <br>
 Compton --> compton <br>
+lxappearence --> lxappearence <br>
+
+Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
