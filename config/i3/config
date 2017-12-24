@@ -219,6 +219,11 @@ bar {
         }
 }
 
+# Disable title bar
+new_window 1pixel
+for_window [class="^.*"] border pixel 0
+
+
 
 #Entries
 exec --no-startup-id /usr/bin/xscreensaver -no-splash #screenlocker
@@ -227,4 +232,5 @@ exec --no-startup-id setxkbmap -layout it #italian keyboard layout
 exec --no-startup-id redshift 
 exec thunar --daemon
 $feh $pic/8.png #desktop-wallpaper
-exec --no-startup-id xcompmgr -c
+#exec --no-startup-id xcompmgr -c
+exec --no-startup-id compton -b -f  -c --inactive-opacity-override --inactive-opacity=0.8 --shadow-opacity=1
