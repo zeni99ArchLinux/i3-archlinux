@@ -12,9 +12,9 @@ if [[ $level != "" ]]; then
   outstr=""
 
   if [[ $ac == "1" ]]; then
-    outstr="${outstr} "
+    outstr="${outstr} "
   else
-    outstr="${outstr}"
+    outstr="${outstr} "
   fi
 
   if [[ $level < "15" && $level != "100" ]]; then
