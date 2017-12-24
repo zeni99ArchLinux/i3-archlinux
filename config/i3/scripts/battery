@@ -5,14 +5,14 @@
 #reads battery level
 if [[ -e "/sys/class/power_supply/BAT0/capacity" ]]; then
   level=$(cat /sys/class/power_supply/BAT0/capacity)  #this is the file that stores the int value for the battery when not plugged
-  ac=$(cat /sys/class/power_supply/AC/online)  #while plugged
+  ac=$(cat /sys/class/power_supply/ADP1/online)  #while plugged, change ADP1 with yours. 
 fi
 
 if [[ $level != "" ]]; then
-  outstr=" "
+  outstr=""
 
   if [[ $ac == "1" ]]; then
-    outstr="${outstr}Charging:"
+    outstr="${outstr} "
   else
     outstr="${outstr}"
   fi
