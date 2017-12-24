@@ -32,6 +32,7 @@ Font --> ttf-google-fonts-git (AUR) <br>
 System status --> sysstat <br>
 Pony Mix --> ponymix <br>
 Atom --> atom <br>
+Gnome Center --> gnome-control-center
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
@@ -44,5 +45,6 @@ mv PKGBUILD\?h\=packer PKGBUILD
 makepkg <br>
 <i>Install it with pacman:</i> <br>
 sudo pacman -U packer-*.pkg.tar.xz <br>
+
 
  
