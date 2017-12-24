@@ -33,6 +33,7 @@ System status --> sysstat <br>
 Pony Mix --> ponymix <br>
 Atom --> atom <br>
 Gnome Character map --> gnome-characters <br>
+Compton --> compton <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
