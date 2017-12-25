@@ -35,6 +35,7 @@ Atom --> atom <br>
 Gnome Character map --> gnome-characters <br>
 Compton --> compton <br>
 lxappearence --> lxappearence <br>
+Python --> python <br>
 
 Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
