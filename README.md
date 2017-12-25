@@ -15,7 +15,7 @@ Alsa Mixer --> alsa-utils <br>
 SMPlayer --> mplayer smpalyer <br>
 Google Chrome --> google-chrome(Aur) <br>
 Opacity Background --> xcompmgr transset-df <br>
-Pluma Text Editor --> pluma <br>
+Leafpad Text Editor --> leafpad <br>
 Feh Image Viewer --> feh <br>
 i3 GAPS --> i3-gaps(Aur) <br>
 Minimal Screensaver --> xscreensaver-arch-logo(Aur) (optional, this configuration has is own lockscreen)<br>
@@ -31,7 +31,7 @@ Transmission(GUI) --> transmission-cli transmission-qt <br>
 Font --> ttf-google-fonts-git (AUR) <br>
 System status --> sysstat <br>
 Pony Mix --> ponymix <br>
-Atom --> atom <br>
+Atom programs editor --> atom <br>
 Gnome Character map --> gnome-characters <br>
 Compton --> compton <br>
 lxappearence --> lxappearence <br>
