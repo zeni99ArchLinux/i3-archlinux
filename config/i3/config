@@ -130,16 +130,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Name the workspaces
-set $tag1 "1"
-set $tag2 "2"
-set $tag3 "3"
-set $tag4 "4"
-set $tag5 "5"
-set $tag6 "6"
-set $tag7 "7"
-set $tag8 "8"
-set $tag9 "9"
-set $tag0 "10"
+set $tag1 "1:"
+set $tag2 "2:"
+set $tag3 "3:"
+set $tag4 "4:"
+set $tag5 "5:"
+set $tag6 "6:"
+set $tag7 "7:"
+set $tag8 "8: "
+set $tag9 "9:"
+set $tag0 "10:"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
