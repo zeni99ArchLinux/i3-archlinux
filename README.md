@@ -36,6 +36,7 @@ Gnome Character map --> gnome-characters <br>
 Compton --> compton <br>
 lxappearence --> lxappearence <br>
 Python --> python <br>
+Pluma --> pluma
 
 Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
