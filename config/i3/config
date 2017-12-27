@@ -64,7 +64,8 @@ bindsym Mod1+Up exec amixer -q set Master 1%+ unmute
 #decrease volume
 bindsym Mod1+Down exec amixer -q set Master 1%- unmute
 #mute
-bindsym Mod1+m exec amixer -q set Master mute
+bindsym Mod1+m exec ponymix toggle
+#amixer -q set Master mute
 
 #Key Indicators
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
