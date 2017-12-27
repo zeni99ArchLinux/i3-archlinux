@@ -36,7 +36,8 @@ Gnome Character map --> gnome-characters <br>
 Compton --> compton <br>
 lxappearence --> lxappearence <br>
 Python --> python <br>
-Pluma --> pluma
+Pluma --> pluma <br>
+rofi --> rofi rofi-dmenu(AUR) <br>
 
 Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
