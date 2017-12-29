@@ -56,7 +56,7 @@ bindsym $mod+Delete exec $config_path/lock
 bindsym $mod+t exec thunar
 bindsym $mod+b exec google-chrome-stable
 bindsym $mod+p exec smplayer
-bindsym $mod+m exec atom
+bindsym $mod+m exec telegram-desktop
 
 #Multimedia
 #increase volume
