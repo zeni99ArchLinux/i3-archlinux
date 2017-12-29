@@ -1,13 +1,13 @@
 # i3-archlinux
 
-I'll try to put my all configuration here.
+I'll try to put my entire configuration here.
 
 # PACKETS
 [NAME--->PACKETS]
 
 Xorg --> xorg-server (Remember your CPI drivers)<br>
 Xinit --> xorg-xinit <br> 
-i3 Desktop Enviroment --> i3 #all i3 packets <br>
+i3 Desktop Enviroment --> i3 (all i3 packets) <br>
 <br>
 Ranger --> ranger <br>
 Thunare File Manager --> thunar thunar-archive-plugin thunar-volman <br>
@@ -15,10 +15,10 @@ Alsa Mixer --> alsa-utils <br>
 SMPlayer --> mplayer smpalyer <br>
 Google Chrome --> google-chrome(Aur) <br>
 Opacity Background --> xcompmgr transset-df <br>
-Pluma Text Editor --> pluma <br>
+Leafpad Text Editor --> leafpad <br>
 Feh Image Viewer --> feh <br>
 i3 GAPS --> i3-gaps(Aur) <br>
-Minimal Screensaver --> xscreensaver-arch-logo(Aur) <br>
+Minimal Screensaver --> xscreensaver-arch-logo(Aur) (optional, this configuration has is own lockscreen)<br>
 File-Roller GUI Extractor File --> unrar unzip tar file-roller rar(Aur) <br>
 Libre Office --> libreoffice-still <br>
 ACPI Modules --> acpi <br>
@@ -28,6 +28,18 @@ Screenfetch --> screenfetch <br>
 i3 BLOCKs-Gaps --> i3blocks-gaps-git(Aur) <br>
 RedShift --> redshift <br>
 Transmission(GUI) --> transmission-cli transmission-qt <br>
+Font --> ttf-google-fonts-git (AUR) <br>
+System status --> sysstat <br>
+Pony Mix --> ponymix <br>
+Atom programs editor --> atom <br>
+Gnome Character map --> gnome-characters <br>
+Compton --> compton <br>
+lxappearence --> lxappearence <br>
+Python --> python <br>
+Pluma --> pluma <br>
+rofi --> rofi rofi-dmenu(AUR) <br>
+
+Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
 # Aur Packets Installer = PACKER
 <i>Install needed packages:</i> <br>
@@ -40,5 +52,6 @@ mv PKGBUILD\?h\=packer PKGBUILD
 makepkg <br>
 <i>Install it with pacman:</i> <br>
 sudo pacman -U packer-*.pkg.tar.xz <br>
+
 
  
