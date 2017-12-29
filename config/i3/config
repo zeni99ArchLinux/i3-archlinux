@@ -60,9 +60,13 @@ bindsym $mod+m exec atom
 
 #Multimedia
 #increase volume
-bindsym Mod1+Up exec amixer -q set Master 1%+ unmute
+bindsym Mod1+Up exec ponymix increase 5 
+#amixer -q set Master 5%+ unmute
+
 #decrease volume
-bindsym Mod1+Down exec amixer -q set Master 1%- unmute
+bindsym Mod1+Down exec ponymix decrease 5 
+#amixer -q set Master 5%- unmute
+
 #mute
 bindsym Mod1+m exec ponymix toggle
 #amixer -q set Master mute
