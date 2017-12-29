@@ -39,6 +39,7 @@ Python --> python <br>
 Pluma --> pluma <br>
 #rofi --> rofi rofi-dmenu(AUR) <br>
 Dmenu --> dmenu <br>
+Telegram --> telegram-desktop <br>
 
 Theme --> gtk-theme-arc-git (AUR) https://github.com/horst3180/arc-theme <br>
 
