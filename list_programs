@@ -4,7 +4,7 @@ packer -S gtk-theme-arc-git ttf-google-fonts-git google-chrome i3-gaps xscreensa
 #rofi-dmenu 
 
 
-sudo pacman -S dmenu pluma leafpad python lxappaerence gnome-characters compton ranger thunar thunar-archive-plugin thunar-volman alsa-utils mplayer smpalyer xcompmgr transset-df feh libreoffice-still acpi gvfs gvfs-mtp gvfs-gphoto2 kio-extras libmtp mtpfs android-file-transfer screenfetch redshift transmission-cli transmission-qt sysstat ponymix atom unrar unzip tar file-roller  
+sudo pacman -S telegram-desktop dmenu pluma leafpad python lxappaerence gnome-characters compton ranger thunar thunar-archive-plugin thunar-volman alsa-utils mplayer smpalyer xcompmgr transset-df feh libreoffice-still acpi gvfs gvfs-mtp gvfs-gphoto2 kio-extras libmtp mtpfs android-file-transfer screenfetch redshift transmission-cli transmission-qt sysstat ponymix atom unrar unzip tar file-roller  
 #rofi 
 
 
