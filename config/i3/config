@@ -57,6 +57,7 @@ bindsym $mod+t exec thunar
 bindsym $mod+b exec google-chrome-stable
 bindsym $mod+p exec smplayer
 bindsym $mod+m exec telegram-desktop
+bindsym $mod+n exec whatsapp-web-desktop
 
 #Multimedia
 #increase volume
