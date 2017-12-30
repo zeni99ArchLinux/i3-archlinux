@@ -1,6 +1,6 @@
 
 
-packer -S gtk-theme-arc-git ttf-google-fonts-git google-chrome i3-gaps xscreensaver-arch-logo rar i3blocks-gaps-git 
+packer -S whatsapp-web-desktop gtk-theme-arc-git ttf-google-fonts-git google-chrome i3-gaps xscreensaver-arch-logo rar i3blocks-gaps-git 
 #rofi-dmenu 
 
 
