@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#the script counts your last day gmail unread emails. If it doesn't work, you check your email account 
+#the script counts your last day gmail unread emails. If it doesn't work, check your email account 
 
 USER=#Your_Gmail_Username
 PASS=#Your_Password
@@ -16,7 +16,7 @@ COUNT1=`echo "$COUNT1" | grep -oPm1 "(?<=<fullcount>)[^<]+"`
 if [ "$COUNT" != "0" ] && [ "$COUNT1" != "0" ]; then
     echo "  P:$COUNT W:$COUNT1"
     else
-    if [ "$COUNT" != "0" ]; then
+    if [ "$COUNT" != "0" ]; then9d
        echo "  P:$COUNT"
        else 
         if [ "$COUNT1" != "0" ]; then
