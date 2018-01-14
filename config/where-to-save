@@ -4,3 +4,5 @@ Save this folder in your user path like this: ~/.config
 
 Then rename i3bloks.conf and i3status.conf: .i3blocks.conf 
                                             .i3status.conf
+                                            
+Remember to change the permission of the scripts with chmod +x $dicrectory/scriptname
