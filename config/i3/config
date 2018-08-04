@@ -136,16 +136,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Name the workspaces
-set $tag1 "1:"
-set $tag2 "2:"
-set $tag3 "3:"
-set $tag4 "4:"
-set $tag5 "5:"
-set $tag6 "6:"
-set $tag7 "7:"
-set $tag8 "8: "
-set $tag9 "9:"
-set $tag0 "10:"
+set $tag1 "1"
+set $tag2 "2"
+set $tag3 "3"
+set $tag4 "4"
+set $tag5 "5"
+set $tag6 "6"
+set $tag7 "7"
+set $tag8 "8 "
+set $tag9 "9"
+set $tag0 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
@@ -232,11 +232,9 @@ for_window [class="^.*"] border pixel 0
 
 
 #Entries
-exec --no-startup-id /usr/bin/xscreensaver -no-splash #screenlocker
-exec --no-startup-id setxkbmap -layout it #italian keyboard layout
-#exec --no-startup-id xcompmgr -c 
-exec --no-startup-id redshift 
+#exec --no-startup-id /usr/bin/xscreensaver -no-splash #screenlocker
+#exec --no-startup-id setxkbmap -layout it #italian keyboard layout
+exec --no-startup-id setxkbmap -layout us -variant intl #us-international keyboard layout
 exec thunar --daemon
-$feh $pic/8.png #desktop-wallpaper
-#exec --no-startup-id xcompmgr -c
-exec --no-startup-id compton -b -f  -c --inactive-opacity-override --inactive-opacity=0.8 --shadow-opacity=1
+$feh $pic/3.png #desktop-wallpaper
+exec compton --config ~/.config/i3/compton.conf
