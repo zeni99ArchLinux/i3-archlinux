@@ -6,17 +6,17 @@ vol=`ponymix get-volume`
 
 #determine mute status
 if [ $? == "0" ]; then
-    echo "  $vol"
+    echo ". $vol"
 fi
 
 # determine icon
 if [ $vol == "0" ]; then
-	echo "  $vol"
+	echo ". $vol"
 else
 	if [ $vol -le 63 ]; then
-		echo "  $vol"
+		echo ". $vol"
 	else
-		echo "  $vol"
+		echo ". $vol"
 	fi
 fi
 
