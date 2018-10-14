@@ -55,12 +55,13 @@ bindsym $mod+Delete exec $config_path/lock
 #my app
 bindsym $mod+t exec thunar
 bindsym $mod+b exec google-chrome-stable
-bindsym $mod+p exec smplayer
+#bindsym $mod+ exec smplayer
 bindsym $mod+m exec telegram-desktop
 bindsym $mod+n exec whatsapp-web-desktop
+bindsym $mod+p exec xfce4-screenshooter
 
-#Multimedia
 #increase volume
+#Multimedia
 bindsym Mod1+Up exec ponymix increase 5 
 #amixer -q set Master 5%+ unmute
 
@@ -73,8 +74,8 @@ bindsym Mod1+m exec ponymix toggle
 #amixer -q set Master mute
 
 #Key Indicators
-bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+#bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+#bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 
 #GRAPHICS
@@ -123,6 +124,8 @@ bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
+bindsym $mod+r mode "resize"
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
@@ -143,34 +146,67 @@ set $tag4 "4"
 set $tag5 "5"
 set $tag6 "6"
 set $tag7 "7"
-set $tag8 "8 "
+set $tag8 "8"
 set $tag9 "9"
-set $tag0 "10"
+set $tag10 "10" 
+set $tag11 "11"
+set $tag12 "12"
+set $tag13 "13"
+set $tag14 "14"
+set $tag15 "15"
+set $tag16 "16"
+set $tag17 "17"
+set $tag18 "18"
+set $tag19 "19"
+set $tag20 "20" 
 
 # switch to workspace
-bindsym $mod+1 workspace $tag1
-bindsym $mod+2 workspace $tag2
-bindsym $mod+3 workspace $tag3
-bindsym $mod+4 workspace $tag4
-bindsym $mod+5 workspace $tag5
-bindsym $mod+6 workspace $tag6
-bindsym $mod+7 workspace $tag7
-bindsym $mod+8 workspace $tag8
-bindsym $mod+9 workspace $tag9
-bindsym $mod+0 workspace $tag0
+bindsym $mod+1 workspace $tag1 workspace $tag2
+bindsym $mod+2 workspace $tag3 workspace $tag4 
+bindsym $mod+3 workspace $tag5 workspace $tag6
+bindsym $mod+4 workspace $tag7 workspace $tag8 
+bindsym $mod+5 workspace $tag9 workspace $tag10
+bindsym $mod+6 workspace $tag11 workspace $tag12
+bindsym $mod+7 workspace $tag13 workspace $tag14 
+bindsym $mod+8 workspace $tag15 workspace $tag16
+bindsym $mod+9 workspace $tag17 workspace $tag18 
+bindsym $mod+0 workspace $tag19 workspace $tag20
+
+
+#workspace
+workspace $tag1 output HDMI-4
+workspace $tag2 output VGA-2
+workspace $tag3 output HDMI-4
+workspace $tag4 output VGA-2
+workspace $tag5 output HDMI-4
+workspace $tag6 output VGA-2
+workspace $tag7 output HDMI-4
+workspace $tag8 output VGA-2
+workspace $tag9 output HDMI-4
+workspace $tag10 output VGA-2
+workspace $tag11 output HDMI-4
+workspace $tag12 output VGA-2
+workspace $tag13 output HDMI-4
+workspace $tag14 output VGA-2
+workspace $tag15 output HDMI-4
+workspace $tag16 output VGA-2
+workspace $tag17 output HDMI-4
+workspace $tag18 output VGA-2
+workspace $tag19 output HDMI-4
+workspace $tag20 output VGA-2
 
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $tag1
-bindsym $mod+Shift+2 move container to workspace $tag2
-bindsym $mod+Shift+3 move container to workspace $tag3
-bindsym $mod+Shift+4 move container to workspace $tag4
-bindsym $mod+Shift+5 move container to workspace $tag5
-bindsym $mod+Shift+6 move container to workspace $tag6
-bindsym $mod+Shift+7 move container to workspace $tag7
-bindsym $mod+Shift+8 move container to workspace $tag8
-bindsym $mod+Shift+9 move container to workspace $tag9
-bindsym $mod+Shift+0 move container to workspace $tag0
+bindsym $mod+Shift+2 move container to workspace $tag3
+bindsym $mod+Shift+3 move container to workspace $tag5
+bindsym $mod+Shift+4 move container to workspace $tag7
+bindsym $mod+Shift+5 move container to workspace $tag9
+bindsym $mod+Shift+6 move container to workspace $tag11
+bindsym $mod+Shift+7 move container to workspace $tag13
+bindsym $mod+Shift+8 move container to workspace $tag15
+bindsym $mod+Shift+9 move container to workspace $tag17
+bindsym $mod+Shift+0 move container to workspace $tag19
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -203,7 +239,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -218,9 +254,9 @@ bar {
         colors
 	{
                 background                      #000000
-                statusline		        #32CD32
-		separator 			#84FF8E
-                focused_workspace       #000000 #32CD32 #000000
+                statusline		                      #32CD32
+		        separator 			              #84FF8E
+                focused_workspace      #000000 #32CD32 #000000
                 inactive_workspace      #32CD32 #000000 #32CD32
         }
 }
@@ -232,9 +268,10 @@ for_window [class="^.*"] border pixel 0
 
 
 #Entries
-#exec --no-startup-id /usr/bin/xscreensaver -no-splash #screenlocker
+
 #exec --no-startup-id setxkbmap -layout it #italian keyboard layout
 exec --no-startup-id setxkbmap -layout us -variant intl #us-international keyboard layout
+#exec --no-startup-id xcompmgr -c 
 exec thunar --daemon
 $feh $pic/3.png #desktop-wallpaper
 exec compton --config ~/.config/i3/compton.conf
