@@ -10,3 +10,5 @@ i3lock -d -i /tmp/screen.png
 #echo mem > /sys/power/state
 rm /tmp/screen.png
 
+
+
