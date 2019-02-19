@@ -19,7 +19,7 @@ set $config_path ~/.config/i3
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango: Nato 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -56,8 +56,8 @@ bindsym $mod+Delete exec $config_path/lock
 bindsym $mod+t exec thunar
 bindsym $mod+b exec google-chrome-stable
 #bindsym $mod+ exec smplayer
-bindsym $mod+m exec telegram-desktop
-bindsym $mod+n exec whatsapp-web-desktop
+bindsym $mod+m exec franz
+bindsym $mod+n exec atom
 bindsym $mod+p exec xfce4-screenshooter
 
 #increase volume
@@ -140,25 +140,25 @@ bindsym $mod+a focus parent
 
 # Name the workspaces
 set $tag1 "1"
-set $tag2 "2"
-set $tag3 "3"
-set $tag4 "4"
-set $tag5 "5"
-set $tag6 "6"
-set $tag7 "7"
-set $tag8 "8"
-set $tag9 "9"
-set $tag10 "10" 
-set $tag11 "11"
-set $tag12 "12"
-set $tag13 "13"
-set $tag14 "14"
-set $tag15 "15"
-set $tag16 "16"
-set $tag17 "17"
-set $tag18 "18"
-set $tag19 "19"
-set $tag20 "20" 
+set $tag2 "1.1"
+set $tag3 "2"
+set $tag4 "2.1"
+set $tag5 "3"
+set $tag6 "3.1"
+set $tag7 "4"
+set $tag8 "4.1"
+set $tag9 "5"
+set $tag10 "5.1" 
+set $tag11 "6"
+set $tag12 "6.1"
+set $tag13 "7"
+set $tag14 "7.1"
+set $tag15 "8"
+set $tag16 "8.1"
+set $tag17 "9"
+set $tag18 "9.1"
+set $tag19 "10"
+set $tag20 "10.1" 
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1 workspace $tag2
@@ -275,3 +275,4 @@ exec --no-startup-id setxkbmap -layout us -variant intl #us-international keyboa
 exec thunar --daemon
 $feh $pic/3.png #desktop-wallpaper
 exec compton --config ~/.config/i3/compton.conf
+exec xset s off -dpms
